@@ -1,0 +1,114 @@
+ .u-section-1 {
+  background-image: none;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 620px;
+}
+
+.u-section-1 .u-form-1 {
+  height: 700px;
+  --checkbox-checked-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23ffffff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='m6 10 3 3 6-6'/%3e%3c/svg%3e");
+  margin: 58px 103px 0 586px;
+}
+/* Label for username field */
+.u-section-1 .u-label-1 {
+  font-weight: 700;
+}
+
+/* Username input field */
+.u-section-1 .u-input-1 {
+  background-image: none;
+  font-weight: 700;
+  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4); /* Add box shadow */
+}
+
+/* Label for password field */
+.u-section-1 .u-label-2 {
+  font-weight: 700;
+}
+
+/* Password input field */
+.u-section-1 .u-input-2 {
+  background-image: none;
+  font-weight: 700;
+  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4); /* Add box shadow */
+}
+
+/* Submit button */
+.u-section-1 .u-btn-1 {
+  width: 100%;
+  background-image: none;
+  border-style: none;
+  font-weight: 700;
+  font-size: 1.25rem;
+  box-shadow: 5px 5px 20px 0px rgba(0,0,0,0.4); /* Add box shadow */
+  padding: 0;
+}
+
+/* Forgot password text */
+.u-section-1 .u-text-1 {
+  margin-left: 0;
+}
+
+/* Don't have an account text */
+.u-section-1 .u-text-2 {
+  margin-left: 0;
+}
+
+/* Login button */
+.u-section-1 .u-btn-3 {
+  --radius: 50px;
+  margin-top: 200px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1.25rem;
+  letter-spacing: 1px;
+  background-image: none;
+  margin: -132px 135px 60px auto; /* Adjust button margin */
+  padding: 13px 162px 15px 161px; /* Adjust button padding */
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-form-1 {
+    margin-right: 3px;
+    margin-left: 486px;
+  }
+
+  .u-section-1 .u-btn-3 {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-form-1 {
+    margin-right: 0;
+    margin-left: 269px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-form-1 {
+    margin-left: 89px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 500px;
+  }
+
+  .u-section-1 .u-form-1 {
+    margin-left: 0;
+  }
+
+  .u-section-1 .u-image-1 {
+    width: 340px;
+    height: 340px;
+    margin-left: 0;
+  }
+
+  .u-section-1 .u-btn-3 {
+    margin-top: -12px;
+  }
+}

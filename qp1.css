@@ -1,0 +1,241 @@
+ .u-section-1 {
+  background-image: linear-gradient(0deg, rgba(173,246,242,0.65), rgba(173,246,242,0.65)), url("images/3903465_2062689.jpg");
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 1042px;
+}
+
+.u-section-1 .u-text-1 {
+  font-weight: 800;
+  margin: 25px auto 0;
+}
+
+.u-section-1 .u-form-1 {
+  --thumb-color: #478ac9;
+  --thumb-hover-color: #77aad9;
+  --track-active-color: #478ac9;
+  --track-color: #1a1a1a;
+  height: 470px;
+  margin: 143px 273px 60px 298px;
+}
+
+.u-section-1 .u-form-group-1 {
+  margin-left: 0;
+}
+
+.u-section-1 .u-label-1 {
+  font-weight: 800;
+  font-size: 1.875rem;
+}
+
+.u-section-1 .u-input-1 {
+  font-weight: 800;
+  font-size: 1.875rem;
+}
+
+.u-section-1 .u-form-group-2 {
+  margin-left: 0;
+}
+
+.u-section-1 .u-label-2 {
+  font-weight: 800;
+  font-size: 1.875rem;
+}
+
+.u-section-1 .u-input-2 {
+  font-weight: 800;
+  font-size: 1.875rem;
+}
+
+.u-section-1 .u-form-group-3 {
+  margin-left: 0;
+}
+#downloadLink {
+  display: none; /* Hide the link by default */
+  font-weight: bold; /* Make the text bold */
+  border-radius: 10px; /* Add rounded corners */
+  padding: 5px 10px; /* Add padding for spacing */
+  background-color: #007bff; /* Add background color */
+  color: white; /* Set text color to white */
+  text-decoration: none; /* Remove underline */
+}
+.u-section-1 .u-label-3 {
+  font-weight: 800;
+  font-size: 1.875rem;
+}
+#overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#popup {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+#okButton {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+/* Modal Overlay */
+.modal-overlays {
+  display: none; /* Hide the modal by default */
+  position: fixed; /* Position the modal overlay */
+  z-index: 1000; /* Ensure it's on top of other elements */
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto; /* Enable scrolling if needed */
+  background-color: rgba(0, 0, 0, 0.4); /* Black with transparency */
+}
+
+/* Modal Content */
+.modal-contents {
+  background-color: #fefefe;
+  margin: 15% auto; /* Center the modal vertically and horizontally */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 600px; /* Set max width for larger screens */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Add shadow effect */
+  animation: fadeInDown 0.5s; /* Add animation */
+}
+
+/* Close Button */
+.close-buttons {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close-buttons:hover,
+.close-buttons:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Add more styles as needed */
+
+#okButton:hover {
+  background-color: #0056b3;
+}
+
+.u-section-1 .u-input-3 {
+  font-weight: 800;
+  font-size: 1.875rem;
+}
+
+.u-section-1 .u-form-group-4 input[type="file"] {
+    display: block;
+    margin-top: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    background-color: #77aad9;
+    border-radius: 4px;
+    font-size: 1.875rem; /* Match the font size used in other inputs */
+    width: calc(100% - 16px); /* Adjust width to fit inside the container */
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.u-section-1 .u-label-4 {
+  font-weight: 800;
+  font-size: 1.875rem;
+}
+
+.u-section-1 .u-input-4 {
+  font-weight: 800;
+  font-size: 1.875rem;
+}
+/* Style for file upload input when hovered */
+.u-section-1 .u-form-group-4 input[type="file"]:hover {
+    border-color: #007bff; /* Change border color when hovered */
+}
+
+/* Style for file upload input when focused */
+.u-section-1 .u-form-group-4 input[type="file"]:focus {
+    outline: none;
+    border-color: #007bff; /* Change border color when focused */
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+.u-section-1 .u-form-group-5 {
+  --progress: 0%;
+  margin-left: 0;
+}
+
+.u-section-1 .u-label-5 {
+  font-weight: 800;
+  font-size: 1.875rem;
+}
+
+.u-section-1 .u-input-5 {
+  font-weight: 800;
+  font-size: 1.875rem;
+}
+
+@media (max-width: 1199px) {
+   .u-section-1 {
+    background-position: 50% 50%;
+  }
+
+  .u-section-1 .u-sheet-1 {
+    min-height: 859px;
+  }
+
+  .u-section-1 .u-form-1 {
+    width: 570px;
+    margin-left: 198px;
+    margin-right: 173px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 658px;
+  }
+
+  .u-section-1 .u-form-1 {
+    margin-left: 88px;
+    margin-right: 63px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 494px;
+  }
+
+  .u-section-1 .u-form-1 {
+    width: 540px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 311px;
+  }
+
+  .u-section-1 .u-form-1 {
+    width: 340px;
+  }
+}
